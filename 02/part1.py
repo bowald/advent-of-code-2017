@@ -1,0 +1,1 @@
+print sum([max([int(nr) for nr in line.split()]) - min([int(nr) for nr in line.split()]) for line in open('input.txt').readlines()])
