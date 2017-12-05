@@ -1,5 +1,4 @@
 maze = [int(line) for line in open('input.txt').readlines()]
-jumps = []
 p = 0
 jumps = 0
 
